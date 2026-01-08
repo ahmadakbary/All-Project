@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;nopCommerceV001_Cucumber/Features/Logins.feature&apos; to &apos;Login.feature&apos;" description="Rename resource &apos;Logins.feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Features/Logins.feature" name="Login.feature" stamp="1635211140596" updateReferences="true"/>
+</session>

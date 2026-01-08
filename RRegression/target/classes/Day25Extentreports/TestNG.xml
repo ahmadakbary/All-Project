@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<suite  name= extentreportsuit">
+<Listener class-name="Day25Extentreports.Reporting"/>
+<Listeners>
+<Test   name="extentreporttest">
+<classes>
+
+<class  name= "Day25Extentreports.Reporting"/>
+
+</class>
+</classes>
+</Test>
+</suite>

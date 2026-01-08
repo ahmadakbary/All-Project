@@ -1,0 +1,28 @@
+package I_Q_Java;
+import java.util.TreeSet;
+public class Apractice {
+public static void main(String[] args) {
+		
+		
+	
+	if (2<3) {
+		System.out.println("2 is smaller");
+	}else {
+		System.out.println("3 is smaller");
+	}
+	if (4>5) {
+		System.out.println("4 is smaller");
+	}else {
+		System.out.println("5 is bigger");
+	}
+		if (6>7) {
+			System.out.println("6 is smaller");
+		}else {
+			System.out.println("7 is bigger");
+		}
+		
+	}
+}
+
+
+

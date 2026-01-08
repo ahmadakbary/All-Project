@@ -1,0 +1,10 @@
+package Day10;
+public class NullPointExceptions {
+public static void main(String[] args) {
+		
+String s=null;
+System.out.println(s.length());
+
+	}
+
+}

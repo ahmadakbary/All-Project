@@ -1,0 +1,46 @@
+package Basics;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AlertsWindowHandling {
+public static void main(String[] args) {
+	WebDriver driver;
+System.getProperty("webdriver.chrome.driver",".\\Drivers\\chromedriver.exe");
+driver=new ChromeDriver();
+driver.manage().window().maximize();
+driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+driver.get("https://ksrtc.in/oprs-web/");
+System.out.println("Parent WindowHandles "+driver.getTitle());
+		
+WebElement CrmWindow=driver.findElement(By.xpath("//p[text()='CRM']"));
+	CrmWindow.click();
+	
+//switch from Pwindow to Cwindow use windowHandles & return is Set.		
+	Set<String>Whandles=driver.getWindowHandles();
+	
+//use iterator collection to iterate through set
+	Iterator<String> itr=Whandles.iterator();
+		
+//Retrieve parent window handler id in a String
+	String PWindow=iterator.next();
+	String CWindow=iterator.next();
+		
+//Switched from PWindow to Cwindow using switch method
+	driver.switchTo().window(CWindow);
+	System.out.println("This is Child window ID "+driver.getTitle());
+	
+		
+		
+	
+		
+	
+
+	}
+
+}

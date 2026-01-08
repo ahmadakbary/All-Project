@@ -1,0 +1,25 @@
+package Day_10;
+
+import java.util.Scanner;
+
+public class Exceptions {
+
+	public static void main(String[] args) {
+		
+		System.out.println("program is started.....");
+		System.out.println("program is in progress");
+		
+		Scanner sc=new Scanner(System.in);
+		int num=sc.nextInt(); //sc.nextDouble(); //sc.next(); String
+		System.out.println(100/num);
+		
+		
+		
+		
+		
+		System.out.println("program is completed.....");
+		System.out.println("program is exited......");
+
+	}
+
+}

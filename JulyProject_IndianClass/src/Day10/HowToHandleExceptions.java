@@ -1,0 +1,31 @@
+package Day10;
+import java.util.Scanner;
+public class HowToHandleExceptions {
+public static void main(String[] args) {
+		
+System.out.println("Program is started...");
+System.out.println("Program is in progress..");
+	
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter Numer:");
+	
+int num=sc.nextInt();
+try {
+System.out.println(100/num);
+	}
+catch (ArithmeticException e) {
+System.out.println("Provided invalid input..");		
+	}
+System.out.println("program is completed");
+System.out.println("program is exited...");
+		
+	}
+}
+
+
+
+
+
+
+
+

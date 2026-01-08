@@ -1,0 +1,13 @@
+2021-11-03 22:22:11,606 - logger_File -INFO - Scenario Create new user account in Test environmentStarted
+2021-11-03 22:22:21,649 - logger_File -INFO - Actual title is matching with expected title
+2021-11-03 22:22:21,703 - logger_File -INFO - user clicked on my account
+2021-11-03 22:22:21,765 - logger_File -INFO - user click on Register
+2021-11-03 22:22:42,770 - logger_File -INFO - Scenario Create new user account in Test environment FAILED
+2021-11-03 22:24:19,813 - logger_File -INFO - Scenario Create new user account in Test environmentStarted
+2021-11-03 22:24:24,066 - logger_File -INFO - Actual title is matching with expected title
+2021-11-03 22:24:24,123 - logger_File -INFO - user clicked on my account
+2021-11-03 22:24:24,184 - logger_File -INFO - user click on Register
+2021-11-04 10:59:18,048 - logger_File -INFO - Scenario Create new user account in Test environmentStarted
+2021-11-04 10:59:24,917 - logger_File -INFO - Actual title is matching with expected title
+2021-11-04 10:59:24,968 - logger_File -INFO - user clicked on my account
+2021-11-04 10:59:25,018 - logger_File -INFO - user click on Register

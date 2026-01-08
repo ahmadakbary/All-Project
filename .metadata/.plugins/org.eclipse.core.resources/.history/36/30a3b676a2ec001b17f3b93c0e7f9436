@@ -1,0 +1,16 @@
+package Day_10;
+public class ArrayExceptions {
+public static void main(String[] args) {
+			
+	int a[]=new int [5];
+	a[0]=100;
+	a[1]=300;
+	a[2]=400;
+	a[3]=800;
+	a[4]=500;
+	a[5]=200;
+	System.out.println(a[0]);
+
+	}
+
+}

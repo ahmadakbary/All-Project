@@ -1,0 +1,30 @@
+package Day7;
+public class MethodOverloading {
+	
+		int x, y;
+		double z;	
+int sum() { //1st Method
+		x=10;
+		y=20;
+	return (x+y);			
+	}
+int sum(int a, int b) { //2nd Method
+		x=a;
+		y=b;
+		return(x+y);
+	}
+double sum(int a, double b) { //3rd Method
+		x=a;
+		z=b;
+		return(x+z);
+	}
+public static void main(String[] args) {
+
+	MethodOverloading mo=new MethodOverloading();
+System.out.println(mo.sum());// 1st method
+System.out.println(mo.sum(100, 200)); //2nd Method
+System.out.println(mo.sum(10, 15.50));//3rd Method
+
+		
+}
+}

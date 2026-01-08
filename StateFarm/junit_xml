@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="23.504">
+<testcase classname="Login to Retail Website" name="Retail website Login test" time="23.258">
+<failure message="Cannot locate an element using xpath=//h2[contains(text(),'My Account')]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-RA2ECB6', ip: '192.168.244.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user is on Retail website.............................................passed
+When user click on Myaccount................................................passed
+And user click on Login option..............................................passed
+And user enter userName 'hwaks@yahoo.com' and password 'asdf'...............passed
+And user click on Login button..............................................passed
+Then user should be logged in to Myaccount dashboard........................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//h2[contains(text(),'My Account')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RA2ECB6', ip: '192.168.244.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+	at pageObjects.LoginPageObject.myAccountTextIsPresent(LoginPageObject.java:51)
+	at stepDefinitions.LoginStepDef.user_should_be_logged_in_to_Myaccount_dashborad(LoginStepDef.java:45)
+	at ✽.user should be logged in to Myaccount dashboard(classpath:features/login.feature:13)
+]]></failure>
+</testcase>
+</testsuite>

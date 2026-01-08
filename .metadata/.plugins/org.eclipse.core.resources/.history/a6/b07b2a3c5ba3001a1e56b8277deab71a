@@ -1,0 +1,16 @@
+package Percentage;
+
+public class Floops {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int d=1;
+
+
+while(d<=100) {
+	System.out.println("d");
+	d++;
+}
+	}
+
+}

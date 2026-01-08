@@ -1,0 +1,24 @@
+package I_Q_Java;
+import java.util.TreeSet;
+public class Apractice {
+public static void main(String[] args) {
+		
+	
+
+ String [] data =  new String [5];
+ 
+ data[0] =	"Testing";
+ data[1] =	"if";
+ data[1] =	"I";
+ data[3] =	"understan";
+ data[4] =	"this";
+ 
+ 
+ int num = 0;
+ while (num<data.length) {
+	 System.out.println(data[num++]+ "");
+	 
+ }
+}
+
+}

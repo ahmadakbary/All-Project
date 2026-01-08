@@ -1,0 +1,24 @@
+package Day26_TestNGlisteners;
+
+import org.testng.ITestResult;
+
+public class Listeners {
+
+	public void onTestStart(ITestResult rs)
+	{
+		System.out.println("on test start......");
+	}
+public void onTestSuccess(ITestResult rs)
+	{
+		System.out.println("onTestSuccess......");
+	}
+public void onTestFailure(ITestResult rs)
+	{
+		System.out.println("onTestFailure......");
+	}
+public void onTestSkipped(ITestResult rs)
+	{
+		System.out.println("onTestSkipped......");
+		
+	}
+}

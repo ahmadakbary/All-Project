@@ -1,0 +1,20 @@
+package I_Q_Java;
+import java.util.TreeSet;
+public class Apractice {
+public static void main(String[] args) {
+		
+		
+String [] [] data = {{"SD","AK","CA", "KL"},{"AL","MS","EC"},{"DE","OK","IL"}};
+
+for (int row = 0; row<data.length; row++) {
+	for (int col = 0; col<data[row].length; col++) {
+		System.out.print(data[row][col]+ "");
+	}
+	System.out.println();
+	
+}
+
+
+}
+}
+

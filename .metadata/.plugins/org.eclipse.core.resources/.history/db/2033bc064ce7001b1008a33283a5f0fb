@@ -1,0 +1,36 @@
+package Day7;
+public class ConstructorOverloading {
+		int x,y;
+		double z;	
+
+
+ConstructorOverloading(){ //1-defualt cons
+		x=100;
+		y=200;
+	System.out.println(x+y);
+	}	
+ConstructorOverloading(int a, int b){ //1-parameterized cons
+		x=a;
+		y=b;
+	System.out.println(x+y);
+}
+ConstructorOverloading(int a, double b ){ //3-parameterized cons
+		x=a;
+		z=b;
+	
+	System.out.println(z+b);	
+}
+ConstructorOverloading(int a, int b, double c){ //4-parameterized cons
+		x=a;
+		y=b;
+		z=c;
+	System.out.println(x+y+z);		
+}
+public static void main(String[] args) {
+	//ConstructorOverloading co=new ConstructorOverloading();
+	//ConstructorOverloading co=new ConstructorOverloading(20,200);
+	//ConstructorOverloading co=new ConstructorOverloading(10,20.99);
+	ConstructorOverloading co=new ConstructorOverloading(50,25.99);
+	}
+
+}

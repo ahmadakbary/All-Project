@@ -1,0 +1,20 @@
+package Day7;
+public class ThisKeyword {
+
+	int x,y;
+void getdata(int x, int y) {
+		this.x=x;
+		this.y=y;
+	}	 
+void calculator() {
+	System.out.println(x+y);	
+	}	
+public static void main(String[]args){
+	ThisKeyword th=new ThisKeyword();
+	th.getdata(20, 30);
+	th.calculator();
+		
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package OCA;
+
+import java.util.ArrayList;
+
+public class Practice {
+
+
+
+	    public static void main(String[] args) {
+	        ArrayList<String> names = new ArrayList<>();
+
+	        names.add("Alice");
+	        names.add("Bob");
+	        names.add("Charlie");
+
+	        System.out.println(names); // [Alice, Bob, Charlie]
+
+	        names.remove("Bob");
+	        System.out.println(names); // [Alice, Charlie]
+
+	        System.out.println(names.get(0)); // Alice
+	    }
+	}

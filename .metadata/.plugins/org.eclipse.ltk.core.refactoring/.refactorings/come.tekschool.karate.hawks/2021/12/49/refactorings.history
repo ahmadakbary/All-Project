@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;come.tekschool.karate.hawks/src/test/java/hawks/API/PostDataDriven.feature&apos; to &apos;PostMethodDataDriven.feature&apos;" description="Rename resource &apos;PostDataDriven.feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/java/hawks/API/PostDataDriven.feature" name="PostMethodDataDriven.feature" stamp="1638472546281" updateReferences="true"/>
+</session>

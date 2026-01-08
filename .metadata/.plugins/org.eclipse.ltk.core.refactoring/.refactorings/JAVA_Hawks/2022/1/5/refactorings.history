@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Practice&apos; to &apos;APractice&apos;&#x0D;&#x0A;- Original project: &apos;JAVA_Hawks&apos;&#x0D;&#x0A;- Original element: &apos;JAVA_Hawks/src/Practice&apos;&#x0D;&#x0A;- Renamed element: &apos;JAVA_Hawks/src/APractice&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Practice&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Practice" name="APractice" qualified="false" references="true" stamp="1643209211323" textual="false" version="1.0"/>
+</session>

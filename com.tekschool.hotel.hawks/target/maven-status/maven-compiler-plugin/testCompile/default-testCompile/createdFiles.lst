@@ -1,0 +1,3 @@
+stepDefinitions\TestStepDef.class
+runner\TestRuner.class
+stepDefinitions\initializer.class

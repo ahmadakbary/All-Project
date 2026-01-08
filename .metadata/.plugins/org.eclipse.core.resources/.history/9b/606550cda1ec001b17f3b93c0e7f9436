@@ -1,0 +1,11 @@
+package Day_10;
+public class ArrayExceptions {
+public static void main(String[] args) {
+		
+	
+	int a[]=new int [5];
+	a[0]=100;
+
+	}
+
+}

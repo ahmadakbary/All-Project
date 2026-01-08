@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"hawks\/API\/PostMethodDataDriven[2.1:56]","start":1638850162394,"end":1638850163129,"title":"hawks\/API\/PostMethodDataDriven[2.1:56] 23:09:22.394-23:09:23.129 Create a post"},{"id":2,"group":1,"content":"hawks\/API\/PostMethodDataDriven[2.2:57]","start":1638850163139,"end":1638850163211,"title":"hawks\/API\/PostMethodDataDriven[2.2:57] 23:09:23.139-23:09:23.211 Create a post"},{"id":3,"group":1,"content":"hawks\/API\/PostMethodDataDriven[2.3:58]","start":1638850163217,"end":1638850163289,"title":"hawks\/API\/PostMethodDataDriven[2.3:58] 23:09:23.217-23:09:23.289 Create a post"},{"id":4,"group":1,"content":"hawks\/API\/PostMethodDataDriven[2.4:59]","start":1638850163297,"end":1638850163386,"title":"hawks\/API\/PostMethodDataDriven[2.4:59] 23:09:23.297-23:09:23.386 Create a post"},{"id":5,"group":1,"content":"hawks\/API\/PostMethodDataDriven[2.5:60]","start":1638850163395,"end":1638850163468,"title":"hawks\/API\/PostMethodDataDriven[2.5:60] 23:09:23.395-23:09:23.468 Create a post"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

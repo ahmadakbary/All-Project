@@ -1,0 +1,30 @@
+package I_Q_Java;
+import java.util.TreeSet;
+public class Apractice {
+public static void main(String[] args) {
+		
+		
+	
+	
+	double balance = 100;
+	double payment1 = 9;
+	
+	int numberOfPayment = 0;
+	while (balance >0) {
+		
+		if (balance - payment1 >0) {
+			balance = balance - payment1;
+		}else {
+			payment1 = balance;
+			balance = balance -payment1;
+			
+		}
+		numberOfPayment++;
+		System.out.println(numberOfPayment + "" +balance);
+	}
+		
+	}
+}
+
+
+

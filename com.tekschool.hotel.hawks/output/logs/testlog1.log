@@ -1,0 +1,55 @@
+2021-11-05 00:29:37,704 [main] INFO logger_File - login to HotelStarted
+2021-11-05 00:29:37,719 [main] INFO logger_File - login to Hotelfinished
+2021-11-05 17:04:57,968 [main] INFO logger_File - login to HotelStarted
+2021-11-05 17:04:57,987 [main] INFO logger_File - login to Hotelfinished
+2021-11-05 18:03:58,947 [main] INFO logger_File - login to HotelStarted
+2021-11-05 18:03:58,962 [main] INFO logger_File - login to Hotelfinished
+2021-11-05 23:30:22,323 [main] INFO logger_File - login to HotelStarted
+2021-11-05 23:30:22,346 [main] INFO logger_File - login to Hotelfinished
+2021-11-05 23:35:54,596 [main] INFO logger_File - login to HotelStarted
+2021-11-05 23:35:54,618 [main] INFO logger_File - login to Hotelfinished
+2021-11-05 23:36:08,940 [main] INFO logger_File - login to HotelStarted
+2021-11-05 23:36:08,977 [main] INFO logger_File - login to Hotelfinished
+2021-11-05 23:38:25,688 [main] INFO logger_File - login to HotelStarted
+2021-11-05 23:38:27,662 [main] INFO logger_File - login to Hotelfinished
+2021-11-05 23:40:37,513 [main] INFO logger_File - login to HotelStarted
+2021-11-05 23:40:45,686 [main] INFO logger_File - login to Hotelfinished
+2021-11-05 23:40:46,440 [main] INFO logger_File - login to Hotel FAILED
+2021-11-05 23:45:22,890 [main] INFO logger_File - login to HotelStarted
+2021-11-05 23:45:27,629 [main] INFO logger_File - Hotel is equal to Hotel
+2021-11-05 23:45:28,261 [main] INFO logger_File - user clicked on SignIn
+2021-11-05 23:45:28,432 [main] INFO logger_File - sign is page is dispalyed
+2021-11-05 23:45:28,437 [main] INFO logger_File - login to Hotelfinished
+2021-11-05 23:45:29,143 [main] INFO logger_File - login to Hotel PASSED
+2021-11-05 23:50:34,835 [main] INFO logger_File - login to HotelStarted
+2021-11-05 23:50:34,856 [main] INFO logger_File - login to Hotelfinished
+2021-11-05 23:53:30,168 [main] INFO logger_File - login to HotelStarted
+2021-11-05 23:53:35,317 [main] INFO logger_File - Hotel is equal to Hotel
+2021-11-05 23:53:35,996 [main] INFO logger_File - user clicked on SignIn
+2021-11-05 23:53:36,186 [main] INFO logger_File - sign is page is dispalyed
+2021-11-05 23:53:36,193 [main] INFO logger_File - login to Hotelfinished
+2021-11-05 23:53:36,886 [main] INFO logger_File - login to Hotel PASSED
+2021-11-06 10:06:09,946 [main] INFO logger_File - login to HotelStarted
+2021-11-06 10:06:29,049 [main] INFO logger_File - Hotel is equal to Hotel
+2021-11-06 10:06:34,255 [main] INFO logger_File - user clicked on SignIn
+2021-11-06 10:06:34,338 [main] INFO logger_File - sign is page is dispalyed
+2021-11-06 10:06:34,339 [main] INFO logger_File - login to Hotelfinished
+2021-11-06 10:06:34,967 [main] INFO logger_File - login to Hotel PASSED
+2021-11-08 22:17:37,199 [main] INFO logger_File - login to HotelStarted
+2021-11-08 22:17:45,746 [main] INFO logger_File - Hotel is equal to Hotel
+2021-11-08 22:17:46,780 [main] INFO logger_File - user clicked on SignIn
+2021-11-08 22:17:47,015 [main] INFO logger_File - sign is page is dispalyed
+2021-11-08 22:17:47,020 [main] INFO logger_File - login to Hotelfinished
+2021-11-08 22:17:47,723 [main] INFO logger_File - login to Hotel PASSED
+2021-11-23 15:04:40,697 [main] INFO logger_File - login to HotelStarted
+2021-11-23 15:04:52,721 [main] INFO logger_File - Hotel is equal to Hotel
+2021-11-23 15:04:55,046 [main] INFO logger_File - user clicked on SignIn
+2021-11-23 15:04:55,125 [main] INFO logger_File - sign is page is dispalyed
+2021-11-23 15:04:55,127 [main] INFO logger_File - login to Hotelfinished
+2021-11-23 15:04:55,745 [main] INFO logger_File - login to Hotel PASSED
+2021-11-23 15:06:53,202 [main] INFO logger_File - login to HotelStarted
+2021-11-23 15:07:02,058 [main] INFO logger_File - Hotel is equal to Hotel
+2021-11-23 15:07:05,198 [main] INFO logger_File - user clicked on SignIn
+2021-11-23 15:07:05,292 [main] INFO logger_File - sign is page is dispalyed
+2021-11-23 15:07:05,294 [main] INFO logger_File - login to Hotelfinished
+2021-11-23 15:07:05,904 [main] INFO logger_File - login to Hotel PASSED

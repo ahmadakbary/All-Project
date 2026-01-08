@@ -1,0 +1,17 @@
+package I_Q_Java;
+import java.util.TreeSet;
+public class Apractice {
+public static void main(String[] args) {
+		
+	
+
+	int x = 0;
+	while (x>0) {
+		System.out.println(x--);
+	}
+
+	
+	
+}
+}
+

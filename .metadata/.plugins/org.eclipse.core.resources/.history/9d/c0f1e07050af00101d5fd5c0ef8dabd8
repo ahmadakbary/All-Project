@@ -1,0 +1,19 @@
+package OCA;
+
+import java.util.ArrayList;
+
+public class Practice {
+
+
+
+	    public static void main(String[] args) {
+	     
+	    	
+	    	int x = 0;
+	    	
+	    	for (int i = 100; i <=100; i++) {
+	    		System.out.println("welcome " +i);
+	    	}
+				
+			}
+	}

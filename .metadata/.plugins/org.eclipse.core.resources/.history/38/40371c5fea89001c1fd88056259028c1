@@ -1,0 +1,22 @@
+package I_Q_Java;
+import java.util.TreeSet;
+public class Apractice {
+public static void main(String[] args) {
+		
+	
+
+ String [] data =  new String [5];
+ 
+ data[0] =	"Testing";
+ data[1] =	"if";
+ data[7] =	"I";
+ data[3] =	"understan";
+ data[4] =	"this";
+ 	
+ for (int i = 0; i<data.length; i++) {
+	 System.out.println(i);
+	 
+ }
+}
+
+}

@@ -1,0 +1,22 @@
+package I_Q_Java;
+import java.util.TreeSet;
+public class Apractice {
+public static void main(String[] args) {
+		
+		
+	String text = "abcd";
+	int a=3;
+	
+	System.out.println(text.charAt(a));
+	System.out.println(text.length());
+	
+	while (a>=0) {
+		System.out.println("this is when a" + +a+ ""+text.charAt(a--));
+	}
+	
+		
+	}
+}
+
+
+

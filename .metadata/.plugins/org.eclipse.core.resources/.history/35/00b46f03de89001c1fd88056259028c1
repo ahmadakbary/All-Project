@@ -1,0 +1,26 @@
+package I_Q_Java;
+import java.util.TreeSet;
+public class Apractice {
+public static void main(String[] args) {
+		
+	
+
+int  [][] data = new int [10][10];
+
+int number =  10;
+
+for (int i=0; i<data.length; i++) {
+	for (int a = 0; a<data.length; a++) {
+		data [i] [a] = number;
+		number++;
+	}
+}
+	for (int i = 0; i<data.length; i++) {
+		for (int a = 0; a<data.length; i++) {
+			System.out.println(data [i] [a] + "\t");
+		}
+		System.out.println();
+	}
+}
+}
+
